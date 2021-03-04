@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: rgba(0, 172, 184,0.8);
+}
+.header{
+    text-align: center;   
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+body main img{
+    max-width: 100px;
+    margin-left: 50%;
+    margin-top: 5%;
+    border-radius: 100px;
+}
+tr:nth-child(even) {
+    background-color: #e7e7de;
+}
+
+th{
+    font-weight: bold;
+    color: white;
+    background-color: #008891;
+    letter-spacing: 1px;
+}
+
+td{
+    width: 600px;
+    text-align: center;
+    padding: 15px 5px;
+}
+ table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+table td, th{
+    border: 1px solid #004e72;
+}
+ h2{
+    margin-bottom: 0;
+}
+tr{
+    border-bottom: 1px solid #008891;
+    width: 1520px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navigasi li{
+    display: inline;
+    list-style: none;
+    margin: 20px 10px;
+    float : right;
+}
+.navigasi img{
+    max-width: 70px;
+}
+.navigasi ul li .btn-profile-pic{
+    float: right;
+    margin-top: -10px;
+    margin-right: 20px;
+    margin-left: -10px;
+    background: rgb(255, 255, 255);
+    height: 50px;
+    width: 80px;
+    border-radius: 50px;
+}
+.navigasi ul li .btn-profile-pic i{
+    margin-top: 18px;
+    float: right;
+    margin-right: 8px;
+    font-size: 20px;
+}
+.navigasi ul li .btn-profile-pic img{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: -10px;
+    min-width: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    min-height: 10px;
+    border-radius: 100px;
+}
+.navigasi ul li .btn-profile-pic:hover{
+    background: rgb(0, 238, 255);
+    cursor: pointer;
+    color: white;
+}
+.dropdown-content{
+    display: none;
+}
+.dropdown-content li a:hover{
+    background: rgb(0, 238, 255);
+    color: #008992;
+    cursor: pointer;
+}
+.dropdown-content{
+    margin-left: -150px;
+    list-style:none; 
+    position:absolute; 
+    background-color: #008992;
+    margin-top: 0px;
+    transform: translateY(50px);
+    width:235px;
+    height: auto;
+    padding: 5px;
+    border-radius: 3px;
+}
+.show{
+    display: block;
+}
+.dropdown-content li a{
+    float:none; 
+    display:block; 
+    margin-top: 0px;
+    padding-left:0px; 
+    text-align:left;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.dropdown-content li{
+    margin: 0;
+    padding: 0px;
+    width: 250px;
+    margin-right: 55px;
+    padding-right: 25px;
+    float: left;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.navigasi ul li p{
+    margin-top: 0px;
+    margin-right: 0px;
+    text-align: center;
+    text-transform: lowercase;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    margin-top: 5px;
+    
+}
+nav img{
+    width: 105px;
+    margin-left: 40px;
+    margin-top: 7px;
+    float: left;
+    overflow: hidden;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    top: 0;
+    height: 80px;
+    position: fixed;
+    background-color: #00acb8;
+}
+header{
+    height: 75px;
+    width: 100%;
+   /* background-image: linear-gradient( to right, rgb(51, 170, 239, 0), rgb(51, 170, 239, 1));*/
+    background-color: white;
+    position: sticky;
+}
+article h2{
+    font-size: 20px;
+    color: #00fffb;
+    margin-right: 100px;
+    text-align: center;
+}
+article h2 i{
+    font-style: italic;
+}
+
+nav li.btnNav a{
+    color: #004e72;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 10px;
+    display: inline;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+    font-family: 'Merriweather', serif;
+}
+nav li.btnNav a:hover{
+    background: rgb(0, 113, 121);
+    color: white;
+}
+
+aside h1{
+    text-align: center;
+    color: white;
+}
+aside{
+    width: 100%;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#content{
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    
+}
+@media screen and (max-width: 1000px){
+    #content,
+    aside{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+    }
+}
+.name-title{
+    font-size: 16px;
+    font-weight: 500px;
+}
+.name-job{
+    font-size: 12px;
+    font-weight: 200px;
+    
+}
+.field-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+.desc-field{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.card{
+    width: 60%;
+    box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.452);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    min-width: 350px;
+    background-color: #ffffff;
+    /* background-color: rgb(38, 128, 140); */
+    color:  #00acb8;
+}
+.card .d-flex img{
+    border-radius: 3px;
+}
+.object-position-center{
+    object-position: center;
+    align-items: center;
+}
+.full-width{
+    width: 100%;
+}
+.featured-image {
+    width: 70%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.featured-image-50 {
+    width: 50%;
+    position: center;
+    min-width: 175px;
+    margin-right: 10px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.flex-grow{
+    flex-grow: 1;
+}
+
+.d-inline{
+    display: inline-block;
+}
+.featured-image-25{
+    width: 25%;
+}
+.margin-left-right-auto{
+    margin-right: auto;
+    margin-left: auto;
+}
+.margin-left-right-25{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.margin-top-bottom-2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.margin-top-0{
+    margin-top: 0;
+    padding : 10px;
+}
+.btnBooking{
+    color :rgb(255, 255, 255);
+    border-radius: 6px;
+    background-color: rgb(38, 128, 140);
+    padding: 8px 8px;
+    display: inline;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.btnBooking:hover, .btnBooking:active, .btnBooking:focus{
+    background-color: rgb(0, 60, 82);
+    color: white;
+    border-right: 3px solid #00a6ff;
+    border-left: 3px solid #00a6ff;
+}
+
+button{
+    border-radius: 10px;
+    background-color: #00587a;
+    color: #e7e7de;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    transition: 0.3s;
+}
+button a{
+    float: left;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #e7e7de;
+}
+
+button:hover{
+    background-color: #008891;
+}

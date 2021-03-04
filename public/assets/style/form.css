@@ -1,0 +1,78 @@
+*{
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+.button{
+    border-radius: 10px;
+    background-color: #008992;
+    color: #e7e7de;
+    width: 100px;
+    padding: 10px;
+    margin: 10px auto;
+    transition: 0.3s;
+    cursor: pointer;
+    float: right;
+}
+.back{
+    float: left;
+}
+.button:hover{
+    background-color:#00587a;
+}
+.button:focus{
+    background-color: #00587a;
+    border: 1px solid #00587a;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008992;
+    background-image: url("../assets/img/aside.jpg"); 
+}
+.card h3{
+    color: rgb(218, 215, 215);
+}
+.card{
+    background-color: rgb(218, 215, 215);
+    border-radius: 5px;
+    padding: 30px;
+    width: 50%;
+    text-align: center;
+    color : #d85e00;
+}
+.card table{
+    border-collapse: collapse;
+    text-align: left;
+}
+.card h3{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 25px;
+    background: #008992;
+}
+.card table td{
+    padding: 8px 4px;
+    border-bottom: 1px solid #00587a;
+}
+input{
+    background-color:rgb(218, 215, 215);
+}
+input:focus{
+    border-right: 2px solid #008992;
+    border-left: 2px solid #008992;
+}
+input, select, textarea{
+    outline: none;
+    border: none;
+    color : #00587a;
+}
+.namaPemesan,.jenisLapangan,
+.noHP, .totalHarga{
+    width: 500px;
+}
+.status{
+    width: 600px;
+}

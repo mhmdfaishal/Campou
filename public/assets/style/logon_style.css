@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008992;;
+}
+
+.form{
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    width: 320px;
+    text-align: center;
+}
+
+.form i{
+    z-index: 1;
+    color: rgb(0, 229, 255);
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+
+.form .signup-form{
+    display:none
+}
+.form .forgot-form{
+    display: none;
+}
+
+.form .user-input{
+    width: 320px;
+    height: 55px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+    transition: 0.5s;
+    transition-property:border-left, border-right, box-shadow;
+}
+
+.form .user-input:hover, .form .user-input:focus, .form .user-input:active{
+    border-left: 3px solid rgb(0, 195, 255);
+    border-right: 3px solid rgb(0, 195, 255);
+    box-shadow: 0 0 10px rgb(0, 195, 255);
+}
+
+.form .choose-act1{
+    margin-bottom: 50px;
+}
+
+.form .choose-act1 input{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.form .choose-act1 .remember-me{
+    color: #fdfdfd;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    float: left;
+    cursor: pointer;
+}
+
+.form .choose-act1 a{
+    color: rgb(0, 0, 0);    
+    font-size: 14px;
+    font-style: italic;
+    float: right;
+}
+
+.form .btn{
+    outline: none;
+    border: none;
+    width: 320px;
+    height: 55px;
+    background: #00b8c5;
+    color: #fbfcfd;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-property: border-left, border-right,box-shadow;
+}
+.btn-pic{
+    margin-left: 20px;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: -100px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 85px;
+}
+.form form .title-login {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.form .btn:hover{
+    border-left: 3px solid #ffffff;
+    border-right: 3px solid #fffafa;
+    box-shadow: 0 0 25px #ffffff;
+}
+button .icon{
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+.form .choose-act2{
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 30px;
+}
+form .choose-act3 p{
+    margin-top: 10px;
+} 
+
+.form .choose-act2 a{
+    color: rgb(0, 0, 0);
+}
+
+.form .choose-act3 a{
+    color: rgb(0, 0, 0);
+}
+.form .choose-act4 a{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.form .choose-act3 p{
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 500px){
+    .form{
+        width: 95%;
+    }
+
+    .form .user-input{
+        width: 100%;
+    }
+
+    .form .btn{
+        width: 100%;
+    }
+}

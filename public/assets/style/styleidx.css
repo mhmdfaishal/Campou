@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap');
+
+*{
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+    box-sizing: border-box;
+}
+body{
+    background-color:#007cae;
+    margin: 0;
+}
+.navigasi li{
+    display: inline;
+    list-style: none;
+    margin: 20px 10px;
+    float : right;
+}
+.navigasi img{
+    max-width: 70px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    
+}
+nav img{
+    width: 135px;
+    margin-left: 30px;
+    margin-top: 0;
+    float: left;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    border-bottom: 1px solid black;
+    top: 0;
+    height: 65px;
+    position: fixed;
+    background-color: #e7e7de;
+}
+header{
+    height: 75px;
+    width: 100%;
+   /* background-image: linear-gradient( to right, rgb(51, 170, 239, 0), rgb(51, 170, 239, 1));*/
+    background-color: #007cae;
+    position: sticky;
+}
+article h2{
+    font-size: 20px;
+    color: #e7e7de;
+}
+article h2 i{
+    font-style: italic;
+}
+
+nav li.btnNav-a a{
+    color : #00587a;
+    border-radius: 5px;
+    background-color: #cc6618;
+    padding: 10px 10px;
+    display: inline;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 3px;
+}
+nav li.btnNav-a a:hover{
+    background-color: #9b4707;
+    color:   #fffdfb;
+}
+nav li.btnNav-a a:active{
+    background-color: #00587a;
+    color:  #e7e7de;
+}
+
+nav li.btnNav-u a{
+    color : #e7e7de;
+    border-radius: 5px;
+    background-color: #007cae;
+    padding: 10px 20px;
+    display: inline;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 3px;
+}
+nav li.btnNav-u a:hover{
+    background-color: #00587a;
+    color:   #cc6618;
+}
+nav li.btnNav-u a:active{
+    background-color: #00587a;
+    color:  #e7e7de;
+}
+
+#content{
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    
+}
+@media screen and (max-width: 1000px){
+    #content{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+    }
+}
+#main-definition img {
+    width: 250px;
+    margin : 50px auto -200px;
+    padding-left: 20px;
+    align-self: right;
+    display: block;
+    min-width: 124px;
+}
+#main-definition{
+    font-family: 'Karla', sans-serif;
+    color: #e7e7de;
+    font-size: 75%;
+}
+#main-definition h2{
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.object-position-center{
+    object-position: center;
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+}
+
+.d-flex .flex-grow .efek{
+    font-size: 60px;
+}
+
+.d-inline{
+    display: inline-block;
+}
+
+footer{
+    padding : 20px;
+    color : #0f3057;
+    background-color: #e7e7de;
+    text-align: center;
+    margin-top: 90px;
+}
+footer .icon-sosmed{
+    margin-left: -1100px;
+}
+footer .icon{    
+    color: rgb(255, 106, 72);
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 40px;
+}
+footer .icon:hover{
+    color: #004fc6;
+}
+footer p{
+    font-family: 'Roboto', sans-serif;
+}
